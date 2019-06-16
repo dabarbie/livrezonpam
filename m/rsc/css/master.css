@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+a{text-decoration:none;color: #3b86f7}
+table{border-collapse: collapse;}
+
+/*class global*/
+.div-prensipal{position: relative;padding: 5%;width: 90%;}
+.bottom-fix{bottom: 0;position: fixed;padding: 5%;text-align:center; }
+.tit-liv h2{font-size: 2.5em;color: #0050ff;}
+.tit-liv h4{font-size: 1.em;color: #939393;}
+.a-dwat{float: right;line-height: 50px;text-align: right;}
+
+.btn{width: 100%;line-height: 40px;position: relative;}
+.btn-prime{border:1px solid #0050ff; font-size: 1.3em;color:white;position: relative;margin: auto;background-color: #0050ff;}
+.btn-txt{color:#0050ff;padding: 2%;border: none;border-bottom: 1px solid #efefef;margin-bottom: 10px}
+.rd-50{border-radius: 50px;}
+.rd-25{border-radius: 25px;}
+.rd-10{border-radius: 10px;}
+.rd-5{border-radius: 5px;}
+.laje-96{width: 96%;}
+
+/*partie login, PIN & connexion*/
+.Kon{margin-top: 50px;}
+.Kon h2{color: #2d2d2d;font-weight: bold;margin-bottom: 20px;}
+.pin{margin-top: 50%;}

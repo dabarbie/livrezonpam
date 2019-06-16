@@ -1,0 +1,12 @@
+ErrorDocument 400 http://www.kwenpam.com/error.php?er=400 
+ErrorDocument 401 http://www.kwenpam.com/error.php?er=401 
+ErrorDocument 402 http://www.kwenpam.com/error.php?er=402 
+ErrorDocument 403 http://www.kwenpam.com/error.php?er=403 
+ErrorDocument 404 http://www.kwenpam.com/error.php?er=404 
+ErrorDocument 405 http://www.kwenpam.com/error.php?er=405 
+ErrorDocument 500 http://www.kwenpam.com/error.php?er=500 
+ErrorDocument 501 http://www.kwenpam.com/error.php?er=501 
+ErrorDocument 502 http://www.kwenpam.com/error.php?er=502 
+ErrorDocument 503 http://www.kwenpam.com/error.php?er=503 
+ErrorDocument 504 http://www.kwenpam.com/error.php?er=504 
+ErrorDocument 505 http://www.kwenpam.com/error.php?er=505
