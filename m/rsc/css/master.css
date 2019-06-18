@@ -1,15 +1,24 @@
 *{margin: 0;padding: 0;}
 a{text-decoration:none;color: #3b86f7}
 table{border-collapse: collapse;}
+@import url('https://fonts.googleapis.com/css?family=Abel|Glegoo|Quicksand|Poiret+One|Roboto&display=swap');
+html{font-family: 'Roboto', sans-serif;}
+h3,h2,h4{font-family: 'Abel', sans-serif;}}
 
 /*class global*/
-.div-prensipal{position: relative;padding: 5%;width: 90%;}
+.div-prensipal{position: relative;padding: 5%;width: 90%;margin: auto;}
 .bottom-fix{bottom: 0;position: fixed;padding: 5%;text-align:center; }
 .tit-liv h2{font-size: 2.5em;color: #0050ff;}
-.tit-liv h4{font-size: 1.em;color: #939393;}
+.tit-liv h4{font-size: 1em;color: #939393;}
 .a-dwat{float: right;line-height: 50px;text-align: right;}
+.fe-bak{ padding-left:5%;padding-right: 5%;position: fixed;line-height: 50px;width: 90%;top: 0;left:0;}
+.img-back{}
+.meni{opacity: 0.95;background-color: white;position: fixed;bottom: 0;z-index: 101;border-top: 1px solid #e0e9ff; height: 60px;width: 100%;padding: 5%;}
+.meni td{width:20%;text-align: center;}
+.meni img{}
+.tit-meni{padding-left: 5%;padding-right: 5%;width: 90%;position: fixed;background-color: #0050ff;color: white;font-size: 1.5em;z-index: 99;line-height: 60px;top:0;}
 
-.btn{width: 100%;line-height: 40px;position: relative;}
+.btn{width: 100%;line-height: 40px;position: relative;font-family: 'Glegoo'}
 .btn-prime{border:1px solid #0050ff; font-size: 1.3em;color:white;position: relative;margin: auto;background-color: #0050ff;}
 .btn-txt{color:#0050ff;padding: 2%;border: none;border-bottom: 1px solid #efefef;margin-bottom: 10px}
 .rd-50{border-radius: 50px;}
@@ -22,3 +31,26 @@ table{border-collapse: collapse;}
 .Kon{margin-top: 50px;}
 .Kon h2{color: #2d2d2d;font-weight: bold;margin-bottom: 20px;}
 .pin{margin-top: 50%;}
+
+/*partie parametre, recherche, sauvegarde, notification & acceuil*/
+.bak-tit-meni{height: 100%;width: 100%;background: -moz-linear-gradient(270deg, #0050FF 19%, #FFFFFF 34%);/* FF3.6+ */background: -webkit-gradient(linear, 270deg, color-stop(19%, 0050FF), color-stop(34%, FFFFFF));/* Chrome,Safari4+ */background: -webkit-linear-gradient(270deg, #0050FF 19%, #FFFFFF 34%);/* Chrome10+,Safari5.1+ */background: -o-linear-gradient(270deg, #0050FF 19%, #FFFFFF 34%);/* Opera 11.10+ */}
+.div-panrsp{opacity: 0.97;margin-bottom: 70px;width: 100%;position: relative;background-color: white;z-index: 100;margin-top: 60px;border-top-left-radius: 50px;border-top-right-radius: 50px; }
+.div-panrsp td{line-height: 25px;}
+.img-panrsp{width: 22%;text-align: left;padding-top: 20px;}
+.text-panrsp{width: 60%;padding-top: 20px;}
+.flech-panrsp{width: 18%;text-align: right;padding-top: 20px;}
+.espas-anle{padding-top:40px;}
+.espas-anba{padding-bottom: 40px}
+
+/*partie acceuil*/
+.btn-add{position: fixed;bottom: 120px;right: 30px;background-color:#0050FF;width: 40px;height: 40px;border-radius: 50px;}
+.tet-akey{padding: 5%;padding-bottom: 0;position: fixed;top: 0;width: 90%;left: 0;background-color: #0050FF;}
+.tit-tet-akey{line-height: 50px;font-size: 2em;color:white;}
+.tet-akey table{width: 100%;}
+.tet-akey td{text-align: center;line-height: 30px;color: #bcd6ff;font-size: 1.2em;width: 33.33%;}
+.focus-tet-akey{font-weight: bold;color: white;border-bottom: 5px solid white;width: 70%;margin: auto;}
+.div-akey{margin-top: 100px;}
+.div-akey td{padding-top: 20px;padding-bottom: 10px;}
+.tre-anba{border-bottom: 1px solid #fafafa;padding-left: 10px;width: 70%;}
+.div-img-akey{width: 70px;height: 70px;background-color: #fafafa;}
+.pati-2-text{color: #595959;font-size: .9em;line-height: 17px;width: 100%;margin-top: 5px;}
