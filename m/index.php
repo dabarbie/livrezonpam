@@ -5,6 +5,7 @@
     <title>Home Livrezonpam</title>
     <link rel="stylesheet" href="rsc/css/master.css">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <script type="text/javascript" src="rsc/js/jquery-3.2.1.min.js"> </script>
   </head>
   <body>
     <div class="tet-akey">
@@ -23,24 +24,11 @@
         </tr>
       </table>
     </div>
-    <table class="div-prensipal div-akey">
-      <tr>
-        <td class="img-panrsp">
-          <div class="div-img-akey rb-10"> </div>
-        </td>
-        <td class="text-panrsp tre-anba">
-          <h4>Delmas 85, tou pre sogebank</h4>
-          <div class="pati-2-text">
-            ergo sum tus li ponotu aslim koyou mo
-            ergo sum tus li ponotu aslim koyou mo
-            ergo sum tus li ponotu  
-          </div>
-        </td>
-        <td>
-          <img src="rsc/img/emo" alt="">
-         </td>
-      </tr>
-    </table>
+    <div class="load-mitan">
+      <?php
+          include 'mvc/view/demande.inc.php'; include 'mvc/view/menu.inc.php';
+       ?>
+    </div>
     <div class="btn-add"></div>
   </body>
 </html>

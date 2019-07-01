@@ -22,22 +22,22 @@
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp espas-anle"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp espas-anle"> <img src="rsc/img/emo/pin/24-s.png" alt=""> </td>
         <td class="text-panrsp espas-anle">Jenere PIN</td>
         <td class="fech-panrsp espas-anle"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp"> <img src="rsc/img/emo/help/24-s.png" alt=""> </td>
         <td class="text-panrsp">Sant &egrave;d</td>
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp"> <img src="rsc/img/emo/Feedback/24-s.png" alt=""> </td>
         <td class="text-panrsp">Feedback</td>
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp espas-anle"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp espas-anle"> <img src="rsc/img/emo/phone/24-s.png" alt=""> </td>
         <td class="text-panrsp espas-anle">Chanje nimewo</td>
         <td class="fech-panrsp espas-anle"><img src="rsc/img/emo/" alt=""></td>
       </tr>
@@ -47,22 +47,22 @@
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp"> <img src="rsc/img/emo/stat/24-s.png" alt=""> </td>
         <td class="text-panrsp">Estatistik</td>
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp espas-anle"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp espas-anle"> <img src="rsc/img/emo/share/24-s.png" alt=""> </td>
         <td class="text-panrsp espas-anle">Envite zanmi</td>
         <td class="fech-panrsp espas-anle"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp"> <img src="rsc/img/emo/" alt=""> </td>
-        <td class="text-panrsp">Siyale yon pwobl&egrave;m</td>
+        <td class="img-panrsp"> <img src="rsc/img/emo/message/24-s.png" alt=""> </td>
+        <td class="text-panrsp">Mesaj</td>
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp"> <img src="rsc/img/emo/" alt=""> </td>
+        <td class="img-panrsp"> <img src="rsc/img/emo/warning/24-s.png" alt=""> </td>
         <td class="text-panrsp">Siyale yon pwobl&egrave;m</td>
         <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
       </tr>
@@ -72,45 +72,14 @@
         <td class="fech-panrsp espas-anle"><img src="rsc/img/emo/" alt=""></td>
       </tr>
       <tr>
-        <td class="img-panrsp"> <img src="rsc/img/emo/" alt=""> </td>
-        <td class="text-panrsp">Siyale yon pwobl&egrave;m</td>
-        <td class="fech-panrsp"><img src="rsc/img/emo/" alt=""></td>
-      </tr>
-      <tr>
-        <td class="img-panrsp espas-anba"> <img src="rsc/img/emo/" alt=""> </td>
-        <td class="text-panrsp espas-anba">Siyale yon pwobl&egrave;m</td>
+        <td class="img-panrsp espas-anba"> <img src="rsc/img/emo/place/24-s.png" alt=""> </td>
+        <td class="text-panrsp espas-anba">Lokalize'm</td>
         <td class="fech-panrsp espas-anba"><img src="rsc/img/emo/" alt=""></td>
       </tr>
     </table>
-    <table class="meni">
-      <tr>
-        <td>
-          <div class="div-img">
-            <a href="index.html"><img src="rsc/img/emo/home/24-s.png" alt="akey"></a>
-          </div>
-        </td>
-        <td>
-            <div class="div-img">
-              <a href="notification.html"><img src="rsc/img/emo/notif/24-s.png" alt="notifikasyon"></a>
-            </div>
-        </td>
-        <td>
-            <div class="div-img">
-              <a href="search.html"><img src="rsc/img/emo/search/24-s.png" alt="rechech"></a>
-            </div>
-        </td>
-        <td>
-            <div class="div-img">
-              <a href="save.html"><img src="rsc/img/emo/save/24-s.png" alt="anrejistre"></a>
-            </div>
-        </td>
-        <td>
-            <div class="div-img" class="focus">
-              <a href="Parameter.html"><img src="rsc/img/emo/menu/24-f.png" alt="paramet"></a>
-            </div>
-        </td>
-      </tr>
-    </table>
+    <?php
+        include 'mvc/view/menu.inc.php';
+     ?>
     <!-- <div class="fen-front">
       <div class="tet-fen-front">
         <img src="rsc/img/emo/" alt="close">
