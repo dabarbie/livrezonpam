@@ -16,8 +16,10 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .meni{opacity: 0.95;background-color: white;position: fixed;bottom: 0;z-index: 101;border-top: 1px solid #e0e9ff; height: 60px;width: 100%;padding: 5%;}
 .meni td{width:20%;text-align: center;}
 .meni img{}
+.div-img{width: 32px; margin: auto; position: relative;}
 .tit-meni{padding-left: 5%;padding-right: 5%;width: 90%;position: fixed;background-color: #0050ff;color: white;font-size: 1.5em;z-index: 99;line-height: 60px;top:0;}
 .focus{border-top:5px solid #0050ff; }
+.notif-icon{background-color: #aaa;width: 25px;height: 25px;position: absolute;top: -8px;right: -8px;border: 1px solid #878787;}
 
 .btn{width: 100%;line-height: 40px;position: relative;font-family: 'Glegoo'}
 .btn-prime{border:1px solid #0050ff; font-size: 1.3em;color:white;position: relative;margin: auto;background-color: #0050ff;}
@@ -35,15 +37,15 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 
 /*partie parametre, recherche, sauvegarde, notification & acceuil*/
 .bak-tit-meni{background: -moz-linear-gradient(270deg, #0050FF 19%, #FFFFFF 34%);/* FF3.6+ */background: -webkit-gradient(linear, 270deg, color-stop(19%, 0050FF), color-stop(34%, FFFFFF));/* Chrome,Safari4+ */background: -webkit-linear-gradient(270deg, #0050FF 19%, #FFFFFF 34%);/* Chrome10+,Safari5.1+ */background: -o-linear-gradient(270deg, #0050FF 19%, #FFFFFF 34%);/* Opera 11.10+ */}
-.div-panrsp{ margin-bottom: 70px;width: 100%;position: relative;background-color: white;z-index: 90;margin-top: 60px;   min-height: 200px;}
-.div-panrsp td{line-height: 17px;}
-.img-panrsp{padding-left: 5%;width: 22%;text-align: left;padding-top: 20px;}
-.text-panrsp{width: 60%;padding-top: 20px;color:#46a4f2;}
-.flech-panrsp{padding-right:5%; width: 18%;text-align: right;padding-top: 20px;}
-.espas-anle{padding-top:40px;}
-.espas-anba{padding-bottom: 40px}
+.div-panrsp{ margin-bottom: 70px;width: 100%;position: relative;background-color: white;z-index: 90;margin-top: 60px;  }
+.div-panrsp td{line-height: 15px;}
+.img-panrsp{padding-left: 5%;width: 20%;text-align: left;padding-top: 20px;}
+.text-panrsp{width: 62%;padding-top: 20px;color:#46a4f2;}
+.flech-panrsp{padding-right:5%; padding-top: 20px;width: 18%;text-align: right; }
+.espas-anle{padding-top:35px;}
+.espas-anba{padding-bottom: 35px}
 .fen-front{width: 90%;padding: 5%;z-index: 102;background-color: white;position: fixed;top: 0;left: 0;height: 100%;}
-.tet-fen-front{height: 50px;background-color: red;width: 100%;position: fixed;left: 0;}
+.tet-fen-front{z-index: 102;top: 0;height: 50px;background-color: red;width: 100%;position: fixed;left: 0;}
 .tet-fen-front img{float: right;}
 
 /*partie acceuil*/
@@ -58,3 +60,22 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .tre-anba{border-bottom: 1px solid #fafafa;padding-left: 10px;width: 70%;}
 .div-img-akey{width: 70px;height: 70px;background-color: #fafafa;}
 .pati-2-text{color: #595959;font-size: .9em;line-height: 17px;width: 100%;margin-top: 5px;}
+
+/*partie search-save*/
+.div-search-save{background-color: white;z-index: 99;width:100%; position: fixed;top:10%; border-bottom: 1px solid #e0e0e0;}
+.div-search-save td{padding-top: 5%; padding-bottom: 5%;}
+.btnsearch-save{width: 20%;padding-right: 5%;}
+.div-search-save td input{width:96%;height:40px;  border: 1px solid #e0e0e0;}
+.txtsearch-save{width: 80%;padding-left: 5%;}
+.txtsearch-save input{background-color: white;padding-left: 2%;}
+.result-search-save{width: 90%;margin: 5%;margin-top: 130px;z-index: 98; margin-bottom: 60px;}
+
+/*partie menu_add add*/
+.anba-fen{line-height: 20px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 5%;text-align: justify; }
+.anba-fen a{text-decoration: underline;}
+.anle-fen{z-index: 111;border-bottom: 1px solid #eaeaea; color: #0050FF;position: fixed;background-color: white;top: 0;width: 100%;opacity: 0.95;}
+.anle-fen td{padding: 5%;}
+.div-menu-add{margin-top: 75px;}
+.div-menu-add .text-panrsp {color: #2d2d2d;font-weight: bold;}
+.div-menu-add p{margin-top: 5px;color: #efafaf;font-weight: normal;font-size: 0.8em;line-height: 20px;}
+/* .text-anle-fen{ padding-left : 0;} */

@@ -1,10 +1,15 @@
-<table class="div-prensipal div-search">
+<table class="div-search-save">
   <tr>
-    <td class=" ">
-      <input type="text" id="txtsearch" value="Cheche yon traje, vol....">
+    <td class="txtsearch-save">
+      <input type="text" id="txtsearch-save" placeholder="Cheche yon traje, vol...." class="rd-5">
     </td>
-    <td class=" ">
-      <input type="submit" id="btnsearch" value="Go">
+    <td class="btnsearch-save">
+      <input type="submit" id="btnsearch-save" value="Go" class="rd-5">
     </td>
+  </tr>
+</table>
+<table class="result-search-save">
+  <tr>
+    <td></td>
   </tr>
 </table>

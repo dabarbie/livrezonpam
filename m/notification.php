@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="bak-tit-meni">
+<html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
     <title>Notification livrezonpam</title>
@@ -10,6 +10,6 @@
     <div class="tit-meni">
       Notifikasyon
     </div>
-  <?php include 'mvc/view/menu.inc.php'; ?>
+  <?php include 'mvc/view/menu.inc.php'; include 'mvc/view/notification.inc.php'; ?>
   </body>
 </html>

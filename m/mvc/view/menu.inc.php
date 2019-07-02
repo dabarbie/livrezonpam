@@ -15,6 +15,7 @@
     <td <?php if($name=="notification"){echo "class='focus'";}?> >
         <div class="div-img">
           <a href="notification.php"><img src="rsc/img/emo/notif/24-<?php if($name=="notification"){echo "f";}else{echo "s";}?>.png" alt="notifikasyon"></a>
+          <div class="notif-icon rd-50" ></div>
         </div>
     </td>
     <td <?php if($name=="search"){echo "class='focus'";}?>>
