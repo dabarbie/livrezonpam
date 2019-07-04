@@ -76,7 +76,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .anle-fen td{padding: 5%;}
 .div-menu-add{margin-top: 75px;}
 .div-menu-add .text-panrsp, .mitan-fen-front h2,.div-confirmation h4{color: #2d2d2d;font-weight: bold;}
-.div-menu-add p,.mitan-fen-front p,.div-confirmation  p{margin-top: 5px;color: #efafaf;font-weight: normal;font-size: 0.8em;line-height: 20px;}
+.text-anle-send,.div-menu-add p,.mitan-fen-front p,.div-confirmation  p{margin-top: 5px;color: #efafaf;font-weight: normal;font-size: 0.8em;line-height: 20px;}
 /* .text-anle-fen{ padding-left : 0;} */
 .tet-fen-front img{height: 30px;width: 30px; }
 .fen-front {width: 90%;padding: 5%;z-index: 114;background-color: white;position: fixed;top: 0;left: 0;height: 100%;overflow: auto;}
@@ -90,4 +90,16 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .div-confirmation{margin-bottom: 0;z-index: 0;overflow: auto;width: 90%;padding: 5%;background-color: white;}
 .div-confirmation table{width: 100%;margin-top: 15px;margin-bottom: 20px;}
 .div-confirmation td{width: 20%;text-align: center;color: #efafaf;}
-.div-confirmation div{margin-top: 10px;margin-bottom: 10px;color: }
+.div-confirmation div{color: #444444;margin-top: 10px;margin-bottom: 10px;color: }
+.div-confirmation div a{text-decoration: underline;}
+
+/*partie validation*/
+.anba-send{width: 100%;position: fixed;bottom: 0;background-color: white;border-top: 1px solid #eaeaea;}
+.div-validation{}
+.div-validation img{padding-right: 5%;border: 1px solid #eaeaea;padding: 5px;margin-bottom: 5px;}
+.div-validation td{padding-left: 5%;padding-top: 3%;}
+.anba-send input{border: 1px solid #eaeaea;}
+.anle-send td{padding: 5%;}
+.anle-send{width: 90%;}
+.anle-send input{padding: 5px;}
+/* .div-validation input[type="submit"]{margin-right: 5%;} */
