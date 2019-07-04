@@ -30,6 +30,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .rd-5{border-radius: 5px;}
 .laje-96{width: 96%;}
 .select{margin-top: 10px;height: 40px; }
+.textarea{margin-top: 15px;width: 96%;padding: 2%;border: 1px solid #e2e2e2;margin-bottom: 15px;}
 
 /*partie login, PIN & connexion*/
 .Kon{margin-top: 50px;}
@@ -69,18 +70,24 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .result-search-save{width: 90%;margin: 5%;margin-top: 130px;z-index: 98; margin-bottom: 60px;}
 
 /*partie menu_add add*/
-.anba-fen{line-height: 20px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 5%;text-align: justify; }
+.anba-fen{line-height: 25px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 5%;text-align: justify; }
 .anba-fen a{text-decoration: underline;}
 .anle-fen{z-index: 114;border-bottom: 1px solid #eaeaea; color: #0050FF;position: fixed;background-color: white;top: 0;width: 100%;opacity: 0.95;left: 0;}
 .anle-fen td{padding: 5%;}
 .div-menu-add{margin-top: 75px;}
-.div-menu-add .text-panrsp, .mitan-fen-front h2{color: #2d2d2d;font-weight: bold;}
-.div-menu-add p,.mitan-fen-front p{margin-top: 5px;color: #efafaf;font-weight: normal;font-size: 0.8em;line-height: 20px;}
+.div-menu-add .text-panrsp, .mitan-fen-front h2,.div-confirmation h4{color: #2d2d2d;font-weight: bold;}
+.div-menu-add p,.mitan-fen-front p,.div-confirmation  p{margin-top: 5px;color: #efafaf;font-weight: normal;font-size: 0.8em;line-height: 20px;}
 /* .text-anle-fen{ padding-left : 0;} */
 .tet-fen-front img{height: 30px;width: 30px; }
-.fen-front{width: 90%;padding: 5%;z-index: 114;background-color: white;position: fixed;top: 0;left: 0;height: 100%;overflow: auto;}
+.fen-front {width: 90%;padding: 5%;z-index: 114;background-color: white;position: fixed;top: 0;left: 0;height: 100%;overflow: auto;}
 .tet-fen-front{z-index: 113;top: 0;line-height: 50px;background-color: white;width: 90%;position: fixed;left: 0;padding: 5%;}
 .tet-fen-front img{float: right; }
 .mitan-fen-front{margin-top: 15%;padding: 5%;margin-bottom: 30px;}
 .mitan-fen-front h4{margin-top: 15px;}
 .mitan-fen-front input[type="text"],.mitan-fen-front  select{border: 1px solid #e2e2e2;margin-top: 10px; }
+
+/*partie confirmation*/
+.div-confirmation{margin-bottom: 0;z-index: 0;overflow: auto;width: 90%;padding: 5%;background-color: white;}
+.div-confirmation table{width: 100%;margin-top: 15px;margin-bottom: 20px;}
+.div-confirmation td{width: 20%;text-align: center;color: #efafaf;}
+.div-confirmation div{margin-top: 10px;margin-bottom: 10px;color: }

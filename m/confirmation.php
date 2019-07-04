@@ -11,12 +11,12 @@
     <table class="anle-fen">
       <tr>
         <td class="img-panrsp"><img src="rsc/img/emo/arrow/24-f.png" alt="back"> </td>
-        <td class="text-anle-fen">Back</td>
+        <td class="text-anle-fen"><!--Back--></td>
       </tr>
     </table>
-    <?php include 'mvc/view/menu_add.inc.php' ?>
-    <div class="anba-fen">
-        <a href="http://livrezonpam.com/terms">T&egrave;m ak kondisyon aplikab</a>. Byen li r&egrave;g yo avan ou f&egrave; nenp&ograve;t bagay sou aplikasyon an
-    </div>
+    <?php include 'mvc/view/Confirmation.inc.php' ?>
+    <!-- <div class="anba-fen">
+        <a href="http://livrezonpam.com/terms?Confirmation">T&egrave;m ak kondisyon aplikab</a>. Byen li r&egrave;g yo avan ou f&egrave; nenp&ograve;t bagay sou aplikasyon an
+    </div> -->
   </body>
 </html>
