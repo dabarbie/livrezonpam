@@ -1,4 +1,12 @@
-
+$(function(){ 
+        $(window).scroll( function(){ 
+            if($(this).scrollTop() > 50){  
+                 $('.navbar-nav a').css("color", "#42d1ff");  
+             }else{ 
+                 $('.navbar-nav a').css("color", "#efffff");  
+            }  
+         });  
+    });
 $(document).ready(function(){
 	"use strict";
 
