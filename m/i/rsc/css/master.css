@@ -2,16 +2,18 @@
 a{text-decoration:none;color: #3b86f7}
 table{border-collapse: collapse;}
 @import url('https://fonts.googleapis.com/css?family=Abel|Glegoo|Quicksand|Poiret+One|Roboto&display=swap');
-html{font-family: 'Roboto', sans-serif;}
+html,body{font-family: 'Roboto', sans-serif;}
 h3,h2,h4{font-family: 'Abel', sans-serif;}
 
 /*class global*/
+.error{display: none;text-align: center;border: 1px solid red;background: red;color: white;font-size: 1em;padding: 3%;margin-bottom: 10px; }
 .div-prensipal{position: relative;padding: 5%;width: 90%;margin: auto;}
 .bottom-fix{bottom: 0;position: fixed;padding: 5%;text-align:center; }
 .tit-liv h2{font-size: 2.5em;color: #0050ff;}
 .tit-liv h4{font-size: 1em;color: #939393;}
 .a-dwat{float: right;line-height: 50px;text-align: right;}
 .fe-bak{ padding-left:5%;padding-right: 5%;position: fixed;line-height: 50px;width: 90%;top: 0;left:0;}
+.fe-bak a{float: right;}
 .img-back{}
 .meni{opacity: 0.95;background-color: white;position: fixed;bottom: 0;z-index: 101;border-top: 1px solid #e0e9ff; height: 60px;width: 100%;padding: 5%;}
 .meni td{width:20%;text-align: center;}
@@ -20,15 +22,19 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .tit-meni{padding-left: 5%;padding-right: 5%;width: 90%;position: fixed;background-color: #0050ff;color: white;font-size: 1.5em;z-index: 99;line-height: 60px;top:0;}
 .focus{border-top:5px solid #0050ff; }
 .notif-icon{background-color: #aaa;width: 25px;height: 25px;position: absolute;top: -8px;right: -8px;border: 1px solid #878787;}
+.back{top: 0;left: 0;position: fixed;z-index: 160;width: 100%;height: 100%;background-color: black;opacity: .9;}
+.md-back{position: fixed;z-index: 170;width: 50%;line-height: 20px;border-radius: 3px;background-color: white;top: 35%;left: 20%;padding: 5%;text-align: center;}
+.md-back p{margin-bottom: 10px;}
 
 .btn{width: 100%; height: 40px;position: relative;font-family: 'Glegoo'}
 .btn-prime{border:1px solid #0050ff; font-size: 1.3em;color:white;position: relative;margin: auto;background-color: #0050ff;}
-.btn-txt{color:#0050ff;padding: 2%;border: none;border-bottom: 1px solid #efefef;margin-bottom: 10px;}
+.btn-txt{font-size: 1.2em;color:#0050ff;padding: 2%;border: none;border-bottom: 1px solid #efefef;margin-bottom: 10px;}
 .rd-50{border-radius: 50px;}
 .rd-25{border-radius: 25px;}
 .rd-10{border-radius: 10px;}
 .rd-5{border-radius: 5px;}
 .laje-96{width: 96%;}
+.pa-5{padding: 5%;}
 .select{margin-top: 10px;height: 40px; }
 .textarea{margin-top: 15px;width: 96%;padding: 2%;border: 1px solid #e2e2e2;margin-bottom: 15px;}
 
@@ -70,7 +76,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .result-search-save{width: 90%;margin: 5%;margin-top: 130px;z-index: 98; margin-bottom: 60px;}
 
 /*partie menu_add add*/
-.anba-fen{line-height: 25px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 5%;text-align: justify; }
+.anba-fen{background-color: white;line-height: 25px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 5%;text-align: justify; }
 .anba-fen a{text-decoration: underline;}
 .anle-fen{z-index: 114;border-bottom: 1px solid #eaeaea; color: #0050FF;position: fixed;background-color: white;top: 0;width: 100%;opacity: 0.95;left: 0;}
 .anle-fen td{padding: 5%;}
@@ -87,7 +93,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .mitan-fen-front input[type="text"],.mitan-fen-front  select{border: 1px solid #e2e2e2;margin-top: 10px; }
 
 /*partie confirmation*/
-.div-confirmation{margin-bottom: 0;z-index: 0;overflow: auto;width: 90%;padding: 5%;background-color: white;}
+.div-confirmation,.div-terms{margin-bottom: 0;z-index: 0;overflow: auto;width: 90%;padding: 5%;background-color: white;}
 .div-confirmation table{width: 100%;margin-top: 15px;margin-bottom: 20px;}
 .div-confirmation td{width: 20%;text-align: center;color: #efafaf;}
 .div-confirmation div{color: #444444;margin-top: 10px;margin-bottom: 10px;color: }
@@ -103,3 +109,8 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .anle-send{width: 90%;}
 .anle-send input{padding: 5px;}
 /* .div-validation input[type="submit"]{margin-right: 5%;} */
+
+/*partie terms et condition */
+.div-terms ul{margin: 5%;}
+.div-terms li{list-style-type: none;font-size: 1em;line-height: 20px;margin-bottom:  20px;}
+.tit-terms{list-style-type: disc;color:  #0050FF;}

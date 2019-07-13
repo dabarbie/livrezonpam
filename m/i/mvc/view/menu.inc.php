@@ -1,7 +1,7 @@
 <?php
    $h=$_SERVER["REQUEST_URI"];
    $href=explode('/',$h);
-   $name=$href[3];
+   $name=$href[4];
    $verif=explode('.',$name);
    $name=$verif[0];
 ?>
