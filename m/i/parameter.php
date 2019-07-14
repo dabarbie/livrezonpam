@@ -9,7 +9,10 @@
   <body>
     <div class="tit-meni">
       Param&egrave;t
+      <img src="./rsc/img/sys/load/16-f.gif" alt="load">
     </div>
-    <?php   include 'mvc/view/menu.inc.php'; include 'mvc/view/parameter.inc.php';?> 
+    <?php   include 'mvc/view/menu.inc.php'; include 'mvc/view/parameter.inc.php';?>
+    <script type="text/javascript" src="rsc/js/jquery-3.2.1.min.js"> </script>
+    <script type="text/javascript" src="rsc/js/index.js"> </script>
   </body>
 </html>

@@ -11,7 +11,7 @@
     <div class="div-prensipal">
       <div class="fe-bak">
         <div class="img-bak">
-          <img src="rsc/img/emo/arrow/24-f.png" alt="back">
+           <img src="rsc/img/emo/arrow/24-f.png" alt="back" class="backfen">
         </div>
       </div>
       <?php include 'mvc/view/pin.inc.php'; ?>

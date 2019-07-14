@@ -7,6 +7,9 @@
       <input type="submit" id="btnsearch-save" value="Go" class="rd-5">
     </td>
   </tr>
+  <tr>
+    <td colspan="3" class="error"> </td>
+  </tr>
 </table>
 <table class="result-search-save">
   <tr>

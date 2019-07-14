@@ -4,6 +4,6 @@
   <div class="error"> </div>
 	<input type="submit" id="btnpin" value="Konfime" class="btn btn-prime">
 	<div class="a-dwat">
-		<a href="#">Revoye PIN lan</a>
+		<a href="#resend" class="resendpin">Revoye PIN lan</a>
 	</div>
 </div>

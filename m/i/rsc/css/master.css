@@ -14,6 +14,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .a-dwat{float: right;line-height: 50px;text-align: right;}
 .fe-bak{ padding-left:5%;padding-right: 5%;position: fixed;line-height: 50px;width: 90%;top: 0;left:0;}
 .fe-bak a{float: right;}
+.tit-meni img{display: none;}
 .img-back{}
 .meni{opacity: 0.95;background-color: white;position: fixed;bottom: 0;z-index: 101;border-top: 1px solid #e0e9ff; height: 60px;width: 100%;padding: 5%;}
 .meni td{width:20%;text-align: center;}
@@ -25,6 +26,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .back{top: 0;left: 0;position: fixed;z-index: 160;width: 100%;height: 100%;background-color: black;opacity: .9;}
 .md-back{position: fixed;z-index: 170;width: 50%;line-height: 20px;border-radius: 3px;background-color: white;top: 35%;left: 20%;padding: 5%;text-align: center;}
 .md-back p{margin-bottom: 10px;}
+.back,.md-back{display: none;}
 
 .btn{width: 100%; height: 40px;position: relative;font-family: 'Glegoo'}
 .btn-prime{border:1px solid #0050ff; font-size: 1.3em;color:white;position: relative;margin: auto;background-color: #0050ff;}
@@ -48,6 +50,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .div-panrsp{ margin-bottom: 70px;width: 100%;position: relative;background-color: white;z-index: 90;margin-top: 60px;  }
 .div-panrsp td{line-height: 15px;}
 .img-panrsp{padding-left: 5%;width: 20%;text-align: left;padding-top: 20px;}
+.img-prin{padding-left: 0;}
 .text-panrsp{width: 62%;padding-top: 20px;color:#46a4f2;}
 .flech-panrsp{padding-right:5%; padding-top: 20px;width: 18%;text-align: right; }
 .espas-anle{padding-top:35px;}
@@ -55,16 +58,17 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 
 /*partie acceuil*/
 .btn-add{position: fixed;bottom: 120px;right: 30px;background-color:#0050FF;width: 40px;height: 40px;border-radius: 50px;}
-.tet-akey{padding: 5%;padding-bottom: 0;position: fixed;top: 0;width: 90%;left: 0;background-color: #0050FF;}
+.tet-akey{padding: 5%;padding-bottom: 0;position: fixed;top: 0;width: 90%;left: 0;background-color: #0050FF;z-index: 99;}
 .tit-tet-akey{line-height: 50px;font-size: 1.7em;color:white;}
 .tet-akey table{width: 100%;}
 .tet-akey td{text-align: center;line-height: 30px;color: #bcd6ff;font-size: 1.1em;width: 33.33%;}
-.focus-tet-akey{font-weight: bold;color: white;border-bottom: 5px solid white;width: 70%;margin: auto;}
-.div-akey{margin-top: 100px;}
+.focus-tet-akey{color: white;border-bottom: 5px solid white;width: 70%;margin: auto;}
+.div-akey{margin-top: 100px;z-index: 55;margin-bottom: 56px;}
 .div-akey td{padding-top: 20px;padding-bottom: 10px;}
 .tre-anba{border-bottom: 1px solid #fafafa;padding-left: 10px;width: 70%;}
 .div-img-akey{width: 70px;height: 70px;background-color: #fafafa;}
 .pati-2-text{color: #595959;font-size: .9em;line-height: 17px;width: 100%;margin-top: 5px;}
+#travel,#ride{display: none;}
 
 /*partie search-save*/
 .div-search-save{background-color: white;z-index: 99;width:100%; position: fixed;top:10%; border-bottom: 1px solid #e0e0e0;}

@@ -1,5 +1,21 @@
 $(document).ready(function(){
 
+  //variable globale
+  var online = navigator.onLine;
+
+  //fonction globale
+  //erreur
+  function error() {
+    $(".error").show();
+    $(".error").html("Verifye koneksyon entenet ou");
+  }
+
+  //affichage back and md-back
+  function back() {
+    $(".back").show(300);
+    $(".md-back").show(200);
+  }
+
   //appel au controller pour le traitement de la connexion utilisateur
   $("#btnkon").click(function(){
     $.ajax({
@@ -23,8 +39,7 @@ $(document).ready(function(){
           }
       },
       error : function(resultat, statut, error){
-        $(".error").show();
-        $(".error").html("Verifye koneksyon entenet ou");
+          error();
       }
     });
   });
@@ -52,8 +67,7 @@ $(document).ready(function(){
           }
       },
       error : function(resultat, statut, error){
-        $(".error").show();
-        $(".error").html("Verifye koneksyon entenet ou");
+          error();
       }
     });
   });
@@ -81,15 +95,63 @@ $(document).ready(function(){
           }
       },
       error : function(resultat, statut, error){
-        $(".error").show();
-        $(".error").html("Verifye koneksyon entenet ou");
+        error();
       }
     });
   });
 
   //differente manipulation des div
   $("#okpin").click(function(){
-      $(".back").hide(300);
-      $(".md-back").hide(300);
+    $(".back").hide(200);
+    $(".md-back").hide(300);
+  });
+
+  //resend PIN
+  $(".resendpin").click(function(){
+    if(online){
+      back();
+    }else{
+      error();
+    }
+  });
+
+  //retour sur une page
+  $(".backfen").click(function(){
+      $(this).attr('src','rsc/img/sys/load/20-f.gif');
+			if(online){
+         history.back();
+				 //$(location).attr('href',this.id);
+			}else{
+        $(this).attr('src','rsc/img/emo/arrow/24-f.png');
+        error();
+      }
+  });
+
+  //controle sur le menu
+  $(".meni td").click(function(){
+      $(".tit-meni img").show();
+      if(online){
+          $(".meni td").removeClass("focus");
+          $(this).addClass("focus");
+          $(location).attr('href',this.id);
+      }else{
+        $(".tit-meni img").hide();
+        error();
+      }
+  });
+
+  //controle sur le menu acceuil
+  $(".tet-akey div").click(function(){
+    var id=this.id;
+    $(".tet-akey div").removeClass("focus-tet-akey");
+    $(this).addClass("focus-tet-akey");
+    $(".load-mitan").slideUp(500);
+    if(id==="ri"){
+        $("#ride").load("mvc/view/travel.inc.php").slideDown(550);
+    }else if(id==="de"){
+        $("#demande").load("mvc/view/demande.inc.php").slideDown(550);
+    }else{
+        $("#travel").load("mvc/view/ride.inc.php").slideDown(550);
+    }
   });
 });
