@@ -1,4 +1,7 @@
 <table class="div-prensipal div-akey">
+  <!-- <tr>
+    <td colspan="3" class="error"></td>
+  </tr> -->
   <?php
     for ($i=0; $i < 20; $i++) {?>
       <tr>
@@ -13,7 +16,7 @@
           </div>
         </td>
         <td>
-          <img src="rsc/img/emo/save/24-f-1.png" alt="">
+
          </td>
       </tr>
     <?php }

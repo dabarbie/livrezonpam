@@ -57,7 +57,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .espas-anba{padding-bottom: 35px}
 
 /*partie acceuil*/
-.btn-add{position: fixed;bottom: 120px;right: 30px;background-color:#0050FF;width: 40px;height: 40px;border-radius: 50px;}
+.btn-add{position: fixed;bottom: 120px;right: 30px;background-color:white;width: 40px;height: 40px;border-radius: 50px;z-index: 200;font-size: 2.2em;color: #0050FF;border: 1px solid #0050FF;text-align: center;font-weight: bold;}
 .tet-akey{padding: 5%;padding-bottom: 0;position: fixed;top: 0;width: 90%;left: 0;background-color: #0050FF;z-index: 99;}
 .tit-tet-akey{line-height: 50px;font-size: 1.7em;color:white;}
 .tet-akey table{width: 100%;}
@@ -65,7 +65,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .focus-tet-akey{color: white;border-bottom: 5px solid white;width: 70%;margin: auto;}
 .div-akey{margin-top: 100px;z-index: 55;margin-bottom: 56px;}
 .div-akey td{padding-top: 20px;padding-bottom: 10px;}
-.tre-anba{border-bottom: 1px solid #fafafa;padding-left: 10px;width: 70%;}
+.tre-anba{border-bottom: 1px solid #fafafa;padding-left: 10px;width: 70%;padding-bottom: 5px;}
 .div-img-akey{width: 70px;height: 70px;background-color: #fafafa;}
 .pati-2-text{color: #595959;font-size: .9em;line-height: 17px;width: 100%;margin-top: 5px;}
 #travel,#ride{display: none;}

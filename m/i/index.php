@@ -46,7 +46,7 @@
        ?>
     </div>
     <?php include 'mvc/view/menu.inc.php'; ?>
-    <div class="btn-add"></div>
+    <div class="btn-add" id="menu_add.php">+</div>
     <script type="text/javascript" src="rsc/js/jquery-3.2.1.min.js"> </script>
     <script type="text/javascript" src="rsc/js/index.js"> </script>
   </body>

@@ -147,11 +147,22 @@ $(document).ready(function(){
     $(this).addClass("focus-tet-akey");
     $(".load-mitan").slideUp(500);
     if(id==="ri"){
-        $("#ride").load("mvc/view/travel.inc.php").slideDown(550);
+        $("#ride").load("mvc/view/ride.inc.php").slideDown(550);
     }else if(id==="de"){
         $("#demande").load("mvc/view/demande.inc.php").slideDown(550);
     }else{
-        $("#travel").load("mvc/view/ride.inc.php").slideDown(550);
+        $("#travel").load("mvc/view/travel.inc.php").slideDown(550);
+    }
+  });
+
+  //appel au menu_add
+  $(".btn-add").click(function(){
+    $(this).html("<img src='rsc/img/sys/load/20-f.gif'/>");
+    if(online){
+      $(location).attr('href',this.id);
+    }else {
+      $(this).html("+");
+      error();
     }
   });
 });
