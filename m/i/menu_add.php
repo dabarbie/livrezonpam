@@ -10,7 +10,7 @@
   <body>
     <table class="anle-fen">
       <tr>
-        <td class="img-panrsp"><img src="rsc/img/emo/arrow/24-f.png" alt="back"> </td>
+        <td class="img-panrsp"><img src="rsc/img/emo/arrow/24-f.png" alt="back" class="backfen"> </td>
         <td class="text-anle-fen"><!--Back--></td>
       </tr>
     </table>
@@ -18,5 +18,7 @@
     <div class="anba-fen">
         <a href="http://livrezonpam.com/terms">T&egrave;m ak kondisyon aplikab</a>. Byen li r&egrave;g yo avan ou f&egrave; nenp&ograve;t bagay sou aplikasyon an
     </div>
+    <script type="text/javascript" src="rsc/js/jquery-3.2.1.min.js"> </script>
+    <script type="text/javascript" src="rsc/js/index.js"> </script>
   </body>
 </html>

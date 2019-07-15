@@ -39,6 +39,7 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .pa-5{padding: 5%;}
 .select{margin-top: 10px;height: 40px; }
 .textarea{margin-top: 15px;width: 96%;padding: 2%;border: 1px solid #e2e2e2;margin-bottom: 15px;}
+#addtravel,#addask,#addtrajet{display: none;}
 
 /*partie login, PIN & connexion*/
 .Kon{margin-top: 50px;}
@@ -80,11 +81,11 @@ h3,h2,h4{font-family: 'Abel', sans-serif;}
 .result-search-save{width: 90%;margin: 5%;margin-top: 130px;z-index: 98; margin-bottom: 60px;}
 
 /*partie menu_add add*/
-.anba-fen{background-color: white;line-height: 25px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 5%;text-align: justify; }
-.anba-fen a{text-decoration: underline;}
+.anba-fen{background-color: white;line-height: 22px;color: #a5a5a5;width: 90%;position: fixed;bottom: 0;border-top: 1px solid #eaeaea;padding: 2% 5% 2% 5%;text-align: justify; }
+/* .anba-fen a{text-decoration: underline;} */
 .anle-fen{z-index: 114;border-bottom: 1px solid #eaeaea; color: #0050FF;position: fixed;background-color: white;top: 0;width: 100%;opacity: 0.95;left: 0;}
 .anle-fen td{padding: 5%;}
-.div-menu-add{margin-top: 75px;}
+.div-menu-add{margin-top: 65px;}
 .div-menu-add .text-panrsp, .mitan-fen-front h2,.div-confirmation h4{color: #2d2d2d;font-weight: bold;}
 .text-anle-send,.div-menu-add p,.mitan-fen-front p,.div-confirmation  p{margin-top: 5px;color: #efafaf;font-weight: normal;font-size: 0.8em;line-height: 20px;}
 /* .text-anle-fen{ padding-left : 0;} */

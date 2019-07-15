@@ -16,6 +16,35 @@ $(document).ready(function(){
     $(".md-back").show(200);
   }
 
+  //appel au controller pour le traitement de la Confirmation
+  $("#btnconfirmation").click(function(){
+    $.ajax({
+      type: "POST",
+      url: "./mvc/controller/u tilisateur.class.php",
+      data:'1',
+      beforeSend: function(){
+        $("#btnconfirmation").css({
+          "background-image":"url('./rsc/img/sys/load/16-f.gif')",
+          "background-repeat":"no-repeat",
+          "background-position":"50% 50%"
+        });
+        $("#btnconfirmation").prop("disabled",true);
+        $("#btnconfirmation").prop("value","");
+      },
+      success: function(data){
+          if(data==1){
+
+          }else{
+
+          }
+      },
+      error : function(resultat, statut, error){
+          error();
+      }
+    });
+  });
+
+
   //appel au controller pour le traitement de la connexion utilisateur
   $("#btnkon").click(function(){
     $.ajax({
@@ -164,5 +193,22 @@ $(document).ready(function(){
       $(this).html("+");
       error();
     }
+  });
+
+  //gestion fenetre menu_add
+  $(".openfenmenu-add").click(function(){
+    var id=this.id;
+    if(id==="fende"){
+        $("#addask").show(350);
+    }else if(id==="fenri"){
+        $("#addtrajet").show(350);
+    }else{
+        $("#addtravel").show(350);
+    }
+  });
+
+  //fermeture de tous les fenetres menu_add
+  $(".close-fen-front").click(function(){
+      $(".fen-front").hide(450);
   });
 });

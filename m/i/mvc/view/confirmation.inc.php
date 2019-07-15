@@ -1,4 +1,5 @@
 <div class="div-panrsp div-confirmation">
+  <div class="error"> </div>
   <h3>Konfimasyon</h3>
   <div>
     Ou te di ou tap livre yon sandal bay Junior dat ki te samdi 30 jen an. Si sa arive f&egrave;t, konplete sinon f&egrave; nou konn sa <a href="#">kounya</a>
@@ -17,5 +18,5 @@
       <td><img src="rsc/img/emo/start/32-f.png" alt="note 5" class="note" id="n5"> <br/>5</td>
     </tr>
   </table>
-  <input type="submit" id="btnconfirmation" value="Konfime" class="rd-50 btn btn-prime">
+  <input type="submit" id="btnconfirmation" value="Konfime" class=" btn btn-prime">
 </div>

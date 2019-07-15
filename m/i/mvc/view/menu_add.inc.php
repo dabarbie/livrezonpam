@@ -1,5 +1,8 @@
 <table class="div-panrsp div-menu-add">
   <tr>
+    <td colspan="3" class="error"></td>
+  </tr>
+  <tr class="openfenmenu-add" id="fende">
     <td class="img-panrsp "> <img src="rsc/img/emo/add/32-s.png" alt="user"> </td>
     <td class="text-panrsp ">
       Pase yon demand tou pre</br>
@@ -7,7 +10,7 @@
     </td>
     <td class="flech-panrsp "><img src="rsc/img/emo/arrow/24-1-s.png" alt="next"></td>
   </tr>
-  <tr>
+  <tr class="openfenmenu-add" id="fenri">
     <td class="img-panrsp "> <img src="rsc/img/emo/car/32-s.png" alt="user"> </td>
     <td class="text-panrsp ">
       Defini yon traj&egrave;</br>
@@ -15,7 +18,7 @@
     </td>
     <td class="flech-panrsp "><img src="rsc/img/emo/arrow/24-1-s.png" alt="next"></td>
   </tr>
-  <tr>
+  <tr class="openfenmenu-add" id="fentra">
     <td class="img-panrsp "> <img src="rsc/img/emo/travel/32-s.png" alt="user"> </td>
     <td class="text-panrsp ">
       Ajoute yon v&ograve;l<br/>
@@ -25,9 +28,9 @@
   </tr>
 </table>
 <!-- fen add trajet-->
-<!-- <div class="fen-front" id="addtrajet">
+<div class="fen-front" id="addtrajet">
   <div class="tet-fen-front">
-    <img src="rsc/img/emo/close/64-f.png" alt="close">
+    <img src="rsc/img/emo/close/64-f.png" alt="close" class="close-fen-front">
   </div>
   <div class="mitan-fen-front">
     <h2>Ajoute yon traj&egrave;</h2>
@@ -48,13 +51,14 @@
     </select>
     <h4>Kisa ou ka pote?</h4>
     <input type="text" class="btn" placeholder="ajoute tout saw ka pote"></br></br>
+    <div class="error"> </div>
     <input type="submit" id="btnaddtrajet" value="Ajoute" class="rd-50 btn btn-prime">
   </div>
-</div> -->
+</div>
 <!--fen add travel-->
-<!-- <div class="fen-front" id="addtravel">
+<div class="fen-front" id="addtravel">
   <div class="tet-fen-front">
-    <img src="rsc/img/emo/close/64-f.png" alt="close">
+    <img src="rsc/img/emo/close/64-f.png"  alt="close" class="close-fen-front">
   </div>
   <div class="mitan-fen-front">
     <h2>Ajoute yon vwayaj</h2>
@@ -68,13 +72,14 @@
     </select>
     <h4>Kisa ou ka pote?</h4>
     <input type="text" class="btn" placeholder="ajoute tout saw ka pote"></br></br>
+    <div class="error"> </div>
     <input type="submit" id="btnaddtrajet" value="Ajoute" class="rd-50 btn btn-prime">
   </div>
-</div> -->
+</div>
 <!--add ask-->
-<!-- <div class="fen-front" id="addask">
+<div class="fen-front" id="addask">
   <div class="tet-fen-front">
-    <img src="rsc/img/emo/close/64-f.png" alt="close">
+    <img src="rsc/img/emo/close/64-f.png" alt="close" class="close-fen-front">
   </div>
   <div class="mitan-fen-front">
     <h2>Ajoute yon traj&egrave;</h2>
@@ -95,6 +100,7 @@
     </select>
     <h4>Kisa ou ka pote?</h4>
     <input type="text" class="btn" placeholder="ajoute tout saw ka pote"></br></br>
+    <div class="error"> </div>
     <input type="submit" id="btnaddtrajet" value="Ajoute" class="rd-50 btn btn-prime">
   </div>
-</div> -->
+</div>
