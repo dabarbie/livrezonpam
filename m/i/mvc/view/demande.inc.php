@@ -4,7 +4,7 @@
   </tr> -->
   <?php
     for ($i=0; $i < 20; $i++) {?>
-      <tr>
+      <tr  class="liendemande" id="<?php echo $i; ?>">
         <td class="img-panrsp img-prin">
           <div class="div-img-akey rb-10"> </div>
         </td>
@@ -16,7 +16,7 @@
           </div>
         </td>
         <td>
-
+          <img src="rsc/img/emo/arrow/24-1-s.png" alt="lien" height="17" id="<?php echo $i+$i; ?>">
          </td>
       </tr>
     <?php }

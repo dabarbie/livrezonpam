@@ -16,6 +16,12 @@ $(document).ready(function(){
     $(".md-back").show(200);
   }
 
+  //ouverture menu acceuil (ride,travel)
+  // $(".dot").click(function(){
+  //     alert(this.id);
+  //     back();
+  // });
+
   //appel au controller pour le traitement de la Confirmation
   $("#btnconfirmation").click(function(){
     $.ajax({
@@ -156,13 +162,30 @@ $(document).ready(function(){
       }
   });
 
+  //retour sur une page
+  $(".liendemande").click(function(){
+      var id=(this.id * 2);
+      $("#"+id).attr('src','rsc/img/sys/load/20-f.gif');
+			if(online){
+				$(location).attr('href','validation.php?id='+this.id);
+			}else{
+        $("#"+id).attr('src','rsc/img/emo/arrow/24-1-s.png');
+        error();
+      }
+  });
+
   //controle sur le menu
   $(".meni td").click(function(){
       $(".tit-meni img").show();
       if(online){
           $(".meni td").removeClass("focus");
           $(this).addClass("focus");
-          $(location).attr('href',this.id);
+          if(this.id ==="notification.php") {
+            $(".notif-all").html("<img src='rsc/img/sys/load/20-f.gif' class='load-n'/>");
+            $(".notif-all").load("mvc/view/notification_valid.inc.php").slideDown(550);
+          }else {
+            $(location).attr('href',this.id);
+          }
       }else{
         $(".tit-meni img").hide();
         error();
@@ -172,15 +195,31 @@ $(document).ready(function(){
   //controle sur le menu acceuil
   $(".tet-akey div").click(function(){
     var id=this.id;
-    $(".tet-akey div").removeClass("focus-tet-akey");
-    $(this).addClass("focus-tet-akey");
-    $(".load-mitan").slideUp(500);
-    if(id==="ri"){
-        $("#ride").load("mvc/view/ride.inc.php").slideDown(550);
-    }else if(id==="de"){
-        $("#demande").load("mvc/view/demande.inc.php").slideDown(550);
+    if(id !=="home") {
+      $(".tet-akey div").removeClass("focus-tet-akey");
+      $(this).addClass("focus-tet-akey");
+      $(".load-mitan").slideUp(500);
+      if(id==="ri"){
+          $("#ride").load("mvc/view/ride.inc.php").slideDown(550);
+      }else if(id==="de"){
+          $("#demande").load("mvc/view/demande.inc.php").slideDown(550);
+      }else{
+          $("#travel").load("mvc/view/travel.inc.php").slideDown(550);
+      }
+    }
+  });
+
+  //controle sur le menu notification
+  $(".menu-notification td").click(function(){
+    var id=this.id;
+    $(".notif-all").html("<img src='rsc/img/sys/load/20-f.gif' class='load-n'/>");
+    $(".menu-notification td").removeClass("focus f-m-n");
+    $(this).addClass("focus f-m-n");
+    //$(".load-mitan").slideUp(500);
+    if(id==="conf-n"){
+        $(".notif-all").load("mvc/view/notification_conf.inc.php").slideDown(550);
     }else{
-        $("#travel").load("mvc/view/travel.inc.php").slideDown(550);
+        $(".notif-all").load("mvc/view/notification_valid.inc.php").slideDown(550);
     }
   });
 
@@ -211,4 +250,5 @@ $(document).ready(function(){
   $(".close-fen-front").click(function(){
       $(".fen-front").hide(450);
   });
+
 });

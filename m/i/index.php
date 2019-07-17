@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="tet-akey">
-      <div class="tit-tet-akey">
+      <div class="tit-tet-akey" id="home">
         Livrezonpam
       </div>
       <table>
@@ -45,6 +45,7 @@
           //include 'mvc/view/ride.inc.php';
        ?>
     </div>
+    <div class="back"> </div>
     <?php include 'mvc/view/menu.inc.php'; ?>
     <div class="btn-add" id="menu_add.php">+</div>
     <script type="text/javascript" src="rsc/js/jquery-3.2.1.min.js"> </script>
